@@ -20,7 +20,24 @@
             <img src="mario-gif.gif" id="mario" class="mario">
             <img src="mario-lose.png" id="mariolose" class="mariolose">
         </div>
-        <button onclick="start()" id="botao" class="botao">Iniciar</button>
+        <div class="painel">
+            <p>Scoreboard</p>
+            <div class="linha"></div>
+            <div class="scoreboard">
+                <p class="time-max">Tempo máx: 00:00:00</p>
+                <p class="pontuacao-max">Pontuação máx: 0</p>
+            </div>
+            <div class="linha"></div>
+            <div class="scoreboard">
+                <p class="time-atual">Tempo atual: 00:00:00</p>
+                <p class="pontuacao-atual">Pontuação atual: 0</p>
+            </div>
+            <div class="linha"></div>
+            <div class="scoreboard">
+                <p class="partidas">Partidas jogadas: 0</p>
+            </div>
+            <button onclick="start()" id="botao" class="botao">Iniciar</button>
+        </div>
     </div>
 </body>
 </html>
